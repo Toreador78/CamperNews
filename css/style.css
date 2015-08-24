@@ -1,0 +1,63 @@
+body {
+  background-color: #6F8311;
+  position: center;
+}
+a {
+    color: #444;
+}
+a:hover{
+    color: #444;
+    text-decoration: none;
+}
+.jumbotron {  
+  background: url('https://s3.amazonaws.com/freecodecamp/wide-social-banner.png') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:300px;
+}
+.jumbotron .container {
+  font-family: 'Lobster', cursive;
+  text-align:center;  
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  color: #444;
+}
+.stories{
+  text-align: center;  
+  background-color: #DCD893;  
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);  
+  padding: 5px;
+  margin: 15px 30px ;
+  max-height: 350px;
+}
+.story {
+  max-height:100%;
+  //border:red solid 2px;
+}
+.storyImg {
+  margin: 5px;
+  float: left;
+}
+.storyItem{
+  float: right;
+  position:relative;  
+}
+.storyHeadline {
+  padding:20px;
+  font-weight:bold;
+  font-size:24px;  
+}
+.storyTeaser {
+  padding:10px;
+  font-family: 'Roboto Slab', serif;
+  font-size:16px;
+}
+.storyFooter {
+  font-family: 'Roboto Slab', serif;
+  font-size:12px;
+  text-align:center;
+}
