@@ -17,20 +17,21 @@
           <p>Camper News</p>
         </div>
       </div>
-
-      <div class='stories container' ng-repeat="story in stories">
-        <div class='story'>
-          <a href={{story.link}}>
-          <div class='row'>
-            <img class='storyImg col-xs-3' ng-src="{{story.image}}" err-src="{{story.author.picture}}" />
-            <div class='storyItem col-xs-8'>
-              <p class='storyHeadline'>{{story.headline}}</p>        
-              <p class='storyTeaser'>{{story.metaDescription}}</p> 
-            </div>
-          </div>      
-          <p class='storyFooter'>{{story.comments.length}} Comments - {{story.upVotes.length}} Upvotes -  {{story.author.username}}</p>                              
-        </div>
-      </div>  
+      <div class='container'>
+        <div class='stories' ng-repeat="story in stories">
+          <div class='story'>
+            <a href={{story.link}}>
+            <div class='row'>
+              <img class='storyImg col-xs-3 col-md-3' ng-src="{{story.image}}" err-src="{{story.author.picture}}" />
+              <div class='storyItem col-xs-8 col-md-8'>
+                <p class='storyHeadline'>{{story.headline}}</p>        
+                <p class='storyTeaser'>{{story.metaDescription}}</p> 
+                <p class='storyFooter'>{{story.comments.length}} Comments - {{story.upVotes.length}} Upvotes -  {{story.author.username}}</p>
+              </div>
+            </div>                  
+          </div>
+        </div>  
+      <div>
     </div>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
     <script src="js/index.js"></script>
