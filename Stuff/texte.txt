@@ -1,0 +1,18 @@
+About Text:
+My passion and drive for new technology, programming and the internet had let me though web development as an autodidact. After developing those skills and putting up some scaffold sites, I decided to put them online.
+I want to offer my skills to solve real life problems, since its easy to put up some mockery but only the missions for real people is it really worth to excel.
+Since I'm just a humble human, I decided to show just frontend solutions here, using technology as HTML5, CSS, jQuerry and Bootstrap, with more to come.
+I dived into Node.js and Angular.js with some sidesteps into Ember.js and Backbone.js to offer full stack development later.
+
+About List
+For tl/dr:
+- Technology: HTML5, CSS3, jQueryy, Bootstrap
+- To Come: Node.js, Angular.js
+- Tools: Git, Responsive Design, Mobile Design
+- Contact me to solve your mission
+
+Home Text:
+Web Design Solutions to solve your Mission. Give your Homepage a makeover with a fresh, crispy new look.
+
+Contact Text:
+Since we live in a world of social media, it is easy to contact me. If you have a mission to be solved, don't hesitate to contact me through any of this channels.
